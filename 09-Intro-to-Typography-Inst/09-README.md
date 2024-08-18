@@ -8,11 +8,11 @@ Let's take a look at some of the ways companies use fonts to brand their busines
 
 [37 Fonts Used by Famous Brands](https://gillde.com/37-fonts-used-by-super-famous-brands/)
 
-## Serif vs Sans Serif Fonts
+### Serif vs Sans Serif Fonts
 
 [Adobe on Fonts](https://www.adobe.com/creativecloud/design/discover/serif-vs-sans-serif.html)
 
-## Available Fonts
+### Available Fonts
 
 By default, certain fonts ship with the browser, they should usually work.
 
@@ -20,7 +20,7 @@ By default, certain fonts ship with the browser, they should usually work.
 
 Let's improve our sample text page using these web safe fonts.
 
-## Fallback fonts
+### Fallback fonts
 
 There is no 100% guaranteed web-safe font. It's always best to include a backup.
 
