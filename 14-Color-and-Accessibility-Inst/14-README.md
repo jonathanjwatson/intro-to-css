@@ -12,5 +12,10 @@ Think accessibility isn't important? Think again!
 [Forbes](https://www.forbes.com/sites/gusalexiou/2023/06/30/website-accessibility-lawsuits-rising-exponentially-in-2023-according-to-latest-data/)
 
 
-## Todo
+## Todo:
 Let's fix these four poorly styled box/h2 combinations. 
+
+## Questions: 
+
+1. How could we test our accessibility? 
+2. Is it possible to generate a score? 
