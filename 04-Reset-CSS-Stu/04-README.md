@@ -1,8 +1,6 @@
 # 04-Reset-CSS
 
-## Activity
-
-Answer the following questions: 
+## Questions
 
 1. What is a reset CSS? 
 2. Find two examples of reset CSS.

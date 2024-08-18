@@ -10,7 +10,7 @@ We also saw that the import order matters when dealing with external CSS files.
 
 Like import order, the specificity of the styling determines how it will be applied. Additionally, there are also some "gotchas". Using the index.html provided, answer the following: 
 
-Questions:
+## Questions:
 
 1. Why is Button 1 blue? 
 2. Why is Button 2 orange red?

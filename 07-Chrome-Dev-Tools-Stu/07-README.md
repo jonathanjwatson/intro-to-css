@@ -9,6 +9,6 @@ Here, you can see changes I've made to Amazon.com text:
 ![Amazon Fake](./assets//Amazon-2.png)
 
 
-Todo: 
+## Todo: 
 
 1. Find a website and use the Chrome Developer Tools to make some changes. 
