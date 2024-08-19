@@ -22,9 +22,9 @@ This repository is designed to be updated at frequent intervals. You will do you
 4. How to use your web browser to navigate and edit live CSS
 5. Typography - including Google Fonts and Icons
 6. Styling Buttons and Links - including pseudoclasses
-7. Frameworks vs Libraries
-8. Box positioning (older layouts)
-9. Flexbox (modern layout)
+7. Box positioning (older layouts)
+8. Flexbox (modern layout)
+9. Frameworks vs Libraries
 10. Animations
 11. And more!
 
