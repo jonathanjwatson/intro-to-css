@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 40px;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 175px;
+        }
+
+        .login-form {
+            width: 100%;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            background-color: #fafafa;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: #3897f0;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #3181db;
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .separator div {
+            height: 1px;
+            flex-grow: 1;
+            background-color: #dbdbdb;
+        }
+
+        .separator span {
+            margin: 0 10px;
+            color: #8e8e8e;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #8e8e8e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        </div>
+        <form class="login-form">
+            <input type="text" placeholder="Phone number, username, or email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Log In">
+        </form>
+        <div class="separator">
+            <div></div>
+            <span>OR</span>
+            <div></div>
+        </div>
+        <p class="footer">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+</body>
+
+</html>

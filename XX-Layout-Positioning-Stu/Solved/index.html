@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Activity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            position: relative;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border: 2px solid #ccc;
+            height: 1000px;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: #ff6b6b;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Modify these positions during the activity */
+        .box1 {
+            position: static;
+        }
+
+        .box2 {
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 100px;
+            right: 50px;
+        }
+
+        .box4 {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .box5 {
+            position: sticky;
+            top: 0;
+            background-color: #6bc1ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Positioning Activity</h1>
+    <p>Practice different CSS positioning techniques by adjusting the positions of the boxes below:</p>
+    <ul>
+        <li><strong>Static Positioning:</strong> The default positioning. The element stays in the natural flow.</li>
+        <li><strong>Relative Positioning:</strong> The element is positioned relative to its original position.</li>
+        <li><strong>Absolute Positioning:</strong> The element is positioned relative to its nearest positioned ancestor.</li>
+        <li><strong>Fixed Positioning:</strong> The element is positioned relative to the viewport and stays in place when scrolling.</li>
+        <li><strong>Sticky Positioning:</strong> The element toggles between relative and fixed based on scroll position.</li>
+    </ul>
+
+    <div class="container">
+        <div class="box box1">Static</div>
+        <div class="box box2">Relative</div>
+        <div class="box box3">Absolute</div>
+        <div class="box box4">Fixed</div>
+        <div class="box box5">Sticky</div>
+    </div>
+
+    <p>Instructions:</p>
+    <ol>
+        <li>Observe how the <strong>static</strong> box stays in the normal document flow.</li>
+        <li>Notice how the <strong>relative</strong> box is offset from its original position.</li>
+        <li>Experiment with the <strong>absolute</strong> box, which moves relative to the container.</li>
+        <li>Scroll the page and observe how the <strong>fixed</strong> box remains in the viewport.</li>
+        <li>Scroll the page and see how the <strong>sticky</strong> box sticks to the top of the container when you scroll down.</li>
+    </ol>
+</body>
+</html>
