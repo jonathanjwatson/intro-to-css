@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blueberry Juice</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      /* Blueberry Color Palette */
+      :root {
+        --blueberry-blue: #1e90ff;
+        --blueberry-dark-blue: #1c3a6b;
+        --blueberry-light-blue: #87cefa;
+        --blueberry-white: #f0f8ff;
+        --blueberry-dark-mode-bg: #121212;
+        --blueberry-dark-mode-text: #e0e0e0;
+        --button-hover: #4169e1;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--blueberry-white);
+        color: var(--blueberry-dark-blue);
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: var(--blueberry-blue);
+        color: white;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      .login-button {
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+      }
+
+      .login-button i {
+        margin-right: 8px;
+      }
+
+      .login-button:hover {
+        background-color: var(--button-hover);
+      }
+
+      .container {
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      img {
+        width: 300px;
+        border-radius: 15px;
+      }
+
+      .description {
+        font-size: 20px;
+        margin: 20px 0;
+      }
+
+      .buy-button {
+        background-color: var(--blueberry-blue);
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      .buy-button:hover {
+        background-color: var(--button-hover);
+      }
+
+      .dark-mode-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: var(--blueberry-blue);
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .dark-mode-toggle i {
+        font-size: 20px;
+      }
+
+      /* Dark Mode Styles */
+      body.dark-mode {
+        background-color: var(--blueberry-dark-mode-bg);
+        color: var(--blueberry-dark-mode-text);
+      }
+
+      body.dark-mode header {
+        background-color: var(--blueberry-dark-blue);
+      }
+
+      body.dark-mode .login-button {
+        border-color: var(--blueberry-dark-mode-text);
+      }
+
+      body.dark-mode .buy-button {
+        background-color: var(--blueberry-dark-blue);
+      }
+
+      body.dark-mode .dark-mode-toggle {
+        background-color: var(--blueberry-dark-blue);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Blueberry Juice</h1>
+      <button class="login-button"><i class="fas fa-user"></i> Login</button>
+      <!-- Dark Mode Toggle Button -->
+      <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <div class="container">
+      <img
+        src="https://www.frsthand.com/files/6VXgW5SeySi5CAWMQqcmS7Sn3oDrnF/0/630"
+        alt="blueberry Juice"
+      />
+      <p class="description">
+        Experience the refreshing burst of flavor with blueberry Juice, packed
+        with energy and made with the secret ingredients of blueberryville!
+      </p>
+      <button class="buy-button">
+        <i class="fas fa-shopping-cart"></i> Buy Now
+      </button>
+    </div>
+
+    <!-- This is the script that listens for our toggle and applies the appropriate classes. -->
+    <script>
+      const toggleButton = document.querySelector(".dark-mode-toggle");
+      const body = document.body;
+
+      toggleButton.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+        const icon = toggleButton.querySelector("i");
+        if (body.classList.contains("dark-mode")) {
+          icon.classList.remove("fa-moon");
+          icon.classList.add("fa-sun");
+        } else {
+          icon.classList.remove("fa-sun");
+          icon.classList.add("fa-moon");
+        }
+      });
+    </script>
+  </body>
+</html>
