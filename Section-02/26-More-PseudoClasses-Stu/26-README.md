@@ -4,7 +4,7 @@ In Section 01, we looked at several [Pseudoclasses](https://www.w3schools.com/cs
 
 We specifically focused on the states that affect links and buttons. 
 
-```
+```css
 a:link {...}
 
 a:visited {...}
