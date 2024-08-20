@@ -1,0 +1,21 @@
+.red {
+    background-color: #25de22;
+    border: dotted;
+    color: black;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: default;
+  }
+
+  .blue {
+    background-color: #df1aae;
+    border: dotted;
+    color: black;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: default;
+  }

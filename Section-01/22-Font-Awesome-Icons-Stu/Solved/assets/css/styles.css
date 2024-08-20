@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.button i {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Specific Button Styles */
+.button-search {
+  background-color: #28a745;
+}
+
+.button-search:hover {
+  background-color: #218838;
+}
+
+.button-cart {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.button-cart:hover {
+  background-color: #e0a800;
+}
+
+.button-home {
+  background-color: #17a2b8;
+}
+
+.button-home:hover {
+  background-color: #138496;
+}
+
+.button-user {
+  background-color: #6f42c1;
+}
+
+.button-user:hover {
+  background-color: #5a359e;
+}
+
+.button-like {
+  background-color: #ff6b6b;
+}
+
+.button-like:hover {
+  background-color: #e45d5d;
+}
+
+.button-dislike {
+  background-color: #6c757d;
+}
+
+.button-dislike:hover {
+  background-color: #5a6268;
+}
+
+.button-trash {
+  background-color: #dc3545;
+}
+
+.button-trash:hover {
+  background-color: #c82333;
+}
+
+.button-download {
+  background-color: #343a40;
+}
+
+.button-download:hover {
+  background-color: #23272b;
+}
+
+.button-share {
+  background-color: #007bff;
+}
+
+.button-share:hover {
+  background-color: #0056b3;
+}

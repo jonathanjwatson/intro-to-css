@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poor Contrast Boxes</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #e0e0e0;
+      }
+
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .box {
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      .box h2 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+
+      .box1 {
+        background-color: #8b3b3b;
+      }
+
+      .box1 h2 {
+        color: #800000;
+      }
+
+      .box2 {
+        background-color: #4a4aa3;
+      }
+
+      .box2 h2 {
+        color: #000093;
+      }
+
+      .box3 {
+        background-color: #b4aa4d;
+      }
+
+      .box3 h2 {
+        color: #b6a400;
+      }
+
+      .box4 {
+        background-color: #9f3847;
+      }
+
+      .box4 h2 {
+        color: #a00119;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <h2>Box 1</h2>
+      </div>
+      <div class="box box2">
+        <h2>Box 2</h2>
+      </div>
+      <div class="box box3">
+        <h2>Box 3</h2>
+      </div>
+      <div class="box box4">
+        <h2>Box 4</h2>
+      </div>
+    </div>
+  </body>
+</html>

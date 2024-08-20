@@ -6,7 +6,9 @@ CSS used to be about making things pretty. And it still is. But now, it's also a
 
 CSS is a rapidly evolving standard. 
 
-> You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers. - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+> You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers. - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+However, there may be a CSS5 [Smashing Magazine](https://www.smashingmagazine.com/2024/08/time-to-talk-about-css5/)
 
 ## How to Use This Repository
 
@@ -20,9 +22,9 @@ This repository is designed to be updated at frequent intervals. You will do you
 4. How to use your web browser to navigate and edit live CSS
 5. Typography - including Google Fonts and Icons
 6. Styling Buttons and Links - including pseudoclasses
-7. Frameworks vs Libraries
-8. Box positioning (older layouts)
-9. Flexbox (modern layout)
+7. Box positioning (older layouts)
+8. Flexbox (modern layout)
+9. Frameworks vs Libraries
 10. Animations
 11. And more!
 
