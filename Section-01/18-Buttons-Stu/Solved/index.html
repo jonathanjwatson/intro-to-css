@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Button Example</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
 
-        .button-container {
-            display: flex;
-            gap: 20px;
-        }
+      .button-container {
+        display: flex;
+        gap: 20px;
+      }
 
-        .button {
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+      .button {
+        /* TODO: style ALL buttons */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
 
-        .button-primary {
-            background-color: #007bff;
-            color: white;
-        }
+      .button-primary {
+        /* TODO: style the button */
+        background-color: #a0ced9;
+      }
 
-        .button-secondary {
-            background-color: #6c757d;
-            color: white;
-        }
+      .button-secondary {
+        /* TODO: style the button */
+        background-color: #adf7b6;
+      }
 
-        .button-disabled {
-            background-color: #d6d6d6;
-            color: #a1a1a1;
-            cursor: not-allowed;
-        }
+      .button-disabled {
+        /* TODO: style the button */
+        background-color: #929292;
+        color: white;
+        cursor: not-allowed;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="button-container">
-        <button class="button button-primary">Primary</button>
-        <button class="button button-secondary">Secondary</button>
-        <button class="button button-disabled" disabled>Disabled</button>
+      <button class="button button-primary">Primary</button>
+      <button class="button button-secondary">Secondary</button>
+      <button class="button button-disabled" disabled>Disabled</button>
     </div>
-</body>
-
+  </body>
 </html>

@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Centered Word with Gradient Background</title>
     <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #ff3d0c, #f7c7a3); /* Gradient colors */
-            font-family: Arial, sans-serif;
-        }
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: linear-gradient(
+          90deg,
+          #ff3d0c,
+          #f7c7a3
+        ); Gradient colors */
+        font-family: Arial, sans-serif;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#094c99+0,ed2525+61,7db9e8+88 */
+        background: (
+          135deg,
+          #094c99 0%,
+          #ed2525 61%,
+          #7db9e8 88%
+        ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
 
-        h1 {
+      /* h1 {
             font-size: 4rem;
-            color: white;
             margin: 0;
-        }
+        } */
+      h1 {
+        font-size: 72px;
+        background: -webkit-linear-gradient(#fff, #000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Centered</h1>
-</body>
+  </body>
 </html>
