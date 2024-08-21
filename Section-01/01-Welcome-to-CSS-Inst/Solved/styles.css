@@ -43,6 +43,10 @@ section {
     margin: 2em 0;
 }
 
+#home {
+    background-color: purple;
+}
+
 footer {
     background-color: #333;
     color: #fff;
