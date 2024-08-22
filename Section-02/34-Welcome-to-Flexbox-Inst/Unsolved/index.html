@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Colored Boxes</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around; /* space-between, flex-start, end */
+        align-items: center;
+        /* flex-direction:column; */
+        width: 80%;
+        max-width: 800px;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+
+      .box1 {
+        background-color: #e74c3c; /* Red */
+      }
+
+      .box2 {
+        background-color: #3498db; /* Blue */
+      }
+
+      .box3 {
+        background-color: #2ecc71; /* Green */
+      }
+
+      .box4 {
+        background-color: #f1c40f; /* Yellow */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+      <div class="box box4">Box 4</div>
+    </div>
+  </body>
+</html>

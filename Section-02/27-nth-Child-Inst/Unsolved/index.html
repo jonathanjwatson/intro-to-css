@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit List with Alternating Styles</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding: 0;
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      li {
+        padding: 10px;
+        font-size: 18px;
+        margin: 5px 0;
+      }
+
+      /* Use nth-child to style alternating list items */
+      li:nth-child(odd) {
+        background-color: #d1e7dd; /* Light green background */
+      }
+
+      li:nth-child(even) {
+        background-color: #fef3c7; /* Light yellow background */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Fruit List</h1>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+      <li>Grape</li>
+      <li>Orange</li>
+      <li>Pineapple</li>
+      <li>Mango</li>
+      <li>Strawberry</li>
+      <li>Watermelon</li>
+      <li>Blueberry</li>
+    </ul>
+  </body>
+</html>

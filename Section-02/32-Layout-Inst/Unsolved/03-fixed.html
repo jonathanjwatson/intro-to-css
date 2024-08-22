@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Positioning Inside a Container</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            height: 2000px; /* Added height to demonstrate scrolling */
+        }
+
+        .container {
+            width: 80%;
+            height: 400px;
+            background-color: #d3d3d3; /* Gray background */
+            padding: 20px;
+            margin: auto;
+            border: 2px solid #666;
+        }
+
+        .fixed-box {
+            width: 300px;
+            height: 150px;
+            background-color: #4caf50; /* Green background */
+            color: white;
+            padding: 20px;
+            border: 2px solid #333;
+            position: fixed; /* Changed to fixed positioning */
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fixed-box">
+            <h2>Fixed Box</h2>
+            <p>This box is positioned fixed, meaning it stays in place even when you scroll.</p>
+        </div>
+    </div>
+</body>
+
+</html>
