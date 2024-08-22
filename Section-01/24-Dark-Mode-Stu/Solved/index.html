@@ -19,6 +19,7 @@
         --blueberry-dark-mode-bg: #121212;
         --blueberry-dark-mode-text: #e0e0e0;
         --button-hover: #4169e1;
+        --link-active: #f6f608;
       }
 
       body {
@@ -115,12 +116,34 @@
         color: var(--blueberry-dark-mode-text);
       }
 
+      /* TODO: Style additional elements to appropriately set a Dark Mode for the user. */
+      /* Think of the header, buttons, and even the toggle button itself! */
+
+      body.dark-mode a {
+        color: var(--blueberry-blue);
+      }
+
+      body.dark-mode a:visited {
+        color: var(--blueberry-light-blue);
+      }
+
+      body.dark-mode a:active {
+        color: var(--link-active);
+      }
+
       body.dark-mode header {
         background-color: var(--blueberry-dark-blue);
       }
 
       body.dark-mode .login-button {
-        border-color: var(--blueberry-dark-mode-text);
+        color: var(--blueberry-blue);
+        border: 2px solid var(--blueberry-blue);
+      }
+
+      body.dark-mode .login-button:hover {
+        color: white;
+        border: 2px solid white;
+        background-color: transparent;
       }
 
       body.dark-mode .buy-button {
@@ -137,8 +160,6 @@
     <header>
       <h1>Blueberry Juice</h1>
       <button class="login-button"><i class="fas fa-user"></i> Login</button>
-      <!-- Dark Mode Toggle Button -->
-      <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
     </header>
 
     <div class="container">
@@ -153,6 +174,8 @@
       <button class="buy-button">
         <i class="fas fa-shopping-cart"></i> Buy Now
       </button>
+      <!-- Dark Mode Toggle Button -->
+      <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
     </div>
     <div class="container">
       <h2>The Powerful Effects of Blueberries</h2>
