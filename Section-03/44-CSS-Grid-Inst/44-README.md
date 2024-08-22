@@ -21,3 +21,11 @@ Fortunately, Bootstrap has adopted this system to allow us to quickly build resp
 3. Build a page that contains a full-width heading.
 4. Add a section where 1/2 is an image and 1/2 is text. 
 5. Add a section with three columns of text. 
+
+## Note:
+
+1. For `.col` classes to work, you *must* have `.container` and `.row` classes above it in three DOM tree. 
+
+## Questions:
+1. How could we make this even most responsive? 
+2. Is there a ways to further customize how many columns an element will take up?
