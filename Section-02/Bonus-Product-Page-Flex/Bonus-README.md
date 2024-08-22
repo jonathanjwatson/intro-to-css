@@ -5,3 +5,9 @@ Flexbox allows us to position elements cleanly. Let's walk through the provided 
 ## Hints:
 
 [CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+
+![Styled Product Page](./assets/Styled-Product-Page.png)
+
+## Todo:
+
+1. 
