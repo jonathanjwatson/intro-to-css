@@ -14,6 +14,8 @@ In order to use bootstrap, you will need to apply its styles via CDN link. (Note
 
 You can start using Bootstrap as easily as copy/pasting their sample elements from their documentation. 
 
+### The key to bootstrap is their pre-defined CSS classes. As long as your HTML components use these classes, you can tap into their design system.
+
 ## Todo: 
 
 1. Build a Bootstrap page with only copy/paste. 
