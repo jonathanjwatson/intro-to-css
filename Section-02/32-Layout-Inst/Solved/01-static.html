@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Static Positioning Inside a Container</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
 
-        .container {
-            width: 80%;
-            height: 400px;
-            background-color: #d3d3d3; /* Gray background */
-            padding: 20px;
-            margin: auto;
-            border: 2px solid #666;
-        }
+      .container {
+        width: 80%;
+        height: 400px;
+        background-color: #d3d3d3; /* Gray background */
+        padding: 20px;
+        margin: auto;
+        border: 2px solid #666;
+      }
 
-        .static-box {
-            width: 300px;
-            height: 150px;
-            background-color: #4caf50; /* Green background */
-            color: white;
-            padding: 20px;
-            border: 2px solid #333;
-            position: static; /* Default static positioning */
-        }
+      .static-box {
+        width: 300px;
+        height: 150px;
+        background-color: #4caf50; /* Green background */
+        color: white;
+        padding: 20px;
+        border: 2px solid #333;
+        position: static; /* Default static positioning */
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="static-box">
-            <h2>Static Box</h2>
-            <p>This box is positioned statically inside a larger gray rectangle.</p>
-        </div>
+      <div class="static-box">
+        <h2>Static Box</h2>
+        <p>This box is positioned statically inside a larger gray rectangle.</p>
+      </div>
+      <div class="static-box">
+        <h2>Static Box</h2>
+        <p>This box is positioned statically inside a larger gray rectangle.</p>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
