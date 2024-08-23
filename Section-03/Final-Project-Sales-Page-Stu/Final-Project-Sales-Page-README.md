@@ -32,7 +32,13 @@ Your goal is to use Bootstrap to build a dedicated sales page.
 2. Three distinct sections, each with an image and a paragraph
 3. A purchase section with three tiers
 
-The "purchase section" should have three "boxes" side-by-side. It should compare the various tiers of product offerings along with a purchase button for each. Additionally, you should highlight one of the tiers as "recommended" and style it differently.
+### The "purchase section" MUST have:
+
+* Three "boxes" side-by-side. 
+* It should compare the various tiers of product offerings along with a purchase button for each. 
+* Highlight one of the tiers as "recommended" and style it differently.
+
+I've provided three examples of this style in the assets directory for this activity.
 
 ### Your Sales Page MUST use a custom color scheme. 
 
