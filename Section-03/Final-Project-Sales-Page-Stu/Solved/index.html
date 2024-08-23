@@ -9,6 +9,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
     <title>Document</title>
     <style>
       #product-description .row:nth-child(2) {
@@ -62,6 +66,22 @@
         background-color: #3b1f2b;
         color: #fff;
       }
+
+      /* ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      li {
+        padding-left: 1em;
+        text-indent: -1em;
+      }
+
+      li:before {
+        content: "+";
+        padding-right: 5px;
+      } */
     </style>
   </head>
   <body>
@@ -173,21 +193,25 @@
     </div>
     <div class="container" id="product-tier">
       <div class="row">
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-12 col-lg-4 order-md-first">
           <div class="card">
             <div class="card-header">Basic</div>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                <ul class="fa-ul" style="--fa-li-width: 3em;">
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem.</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem, ipsum.</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem.</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem, ipsum dolor.</li>
+                </ul>
               </p>
               <a href="#" class="btn btn-secondary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 order-first">
-          <div class="card mt-5"  id="featured-tier">
+        <div class="col-md-12 col-lg-4 order-xs-first order-sm-first">
+          <div class="card mt-5" id="featured-tier">
             <div class="card-header">Featured</div>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
